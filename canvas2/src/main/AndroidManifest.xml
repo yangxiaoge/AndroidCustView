@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bruce.canvas2">
+
+    <application>
+        <activity
+            android:name=".Canvas2Activity"
+            android:label="Canvas之画布操作" />
+    </application>
+
+</manifest>

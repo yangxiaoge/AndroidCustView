@@ -1,0 +1,8 @@
+include ':path2_bezier'
+include ':path1'
+include ':canvas3'
+include ':base'
+include ':canvas2'
+include ':canvas1'
+include ':app'
+rootProject.name = "自定义View"

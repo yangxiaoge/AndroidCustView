@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Path2Activity">
+
+    <com.bruce.path2_bezier.PathQuadToView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <com.bruce.path2_bezier.PathCubicToView
+        android:id="@+id/cubic_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <Button
+           android:text="控制点1"
+           android:onClick="control1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <Button
+           android:text="控制点2"
+           android:onClick="control2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+   </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

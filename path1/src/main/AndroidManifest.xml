@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bruce.path1">
+
+    <application>
+        <activity
+            android:name=".Path1Activity"
+            android:label="Path之基本操作" />
+    </application>
+
+</manifest>

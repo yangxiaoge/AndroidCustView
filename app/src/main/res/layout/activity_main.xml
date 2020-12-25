@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/canvas1_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Canvas之绘制图形"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/canvas2_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Canvas之画布操作"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/canvas1_btn" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/canvas3_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Canvas之图片文字"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/canvas2_btn" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/path1_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Path之基本操作"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/canvas3_btn" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/path2_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Path之贝塞尔曲线"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/path1_btn" />
+</androidx.constraintlayout.widget.ConstraintLayout>
